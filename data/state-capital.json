@@ -1,0 +1,311 @@
+{
+  "stateCapitals": [
+    {
+      "stateImg": "alabama.png",
+      "stateAlt": "Alabama",
+      "options": ["Woonsocket", "Huntsville", "Auburn", "Mobile"],
+      "correctOption": "Montogomery"
+    },
+
+    {
+      "stateImg": "alaska.png",
+      "stateAlt": "Alaska",
+      "options": ["Anchorage", "Fairbanks", "Ketchikan", "Sitka"],
+      "correctOption": "Juneau"
+    },
+    {
+      "stateImg": "arizona.png",
+      "stateAlt": "Arizona",
+      "options": ["Tucson", "Scottsdale", "Sedona", "Mesa"],
+      "correctOption": "Phoenix"
+    },
+    {
+      "stateImg": "arkansas.png",
+      "stateAlt": "Arkansas",
+      "options": ["Bentonville", "Hot Springs", "Fayetteville", "Jonesboro"],
+      "correctOption": "Little Rock"
+    },
+    {
+      "stateImg": "california.png",
+      "stateAlt": "California",
+      "options": ["Fresno", "San Francisco", "Los Angeles", "San Jose"],
+      "correctOption": "Sacramento"
+    },
+    {
+      "stateImg": "colorado.png",
+      "stateAlt": "Colorado",
+      "options": ["Aurora", "Colorado Springs", "Boulder", "Aspen"],
+      "correctOption": "Denver"
+    },
+    {
+      "stateImg": "connecticut.png",
+      "stateAlt": "Connecticut",
+      "options": ["New Haven", "Shelton", "Stamford", "Danbury"],
+      "correctOption": "Hartford"
+    },
+    {
+      "stateImg": "delaware.png",
+      "stateAlt": "Delaware",
+      "options": ["Wilmington", "Newark", "Rehoboth Beach", "Lewes"],
+      "correctOption": "Dover"
+    },
+    {
+      "stateImg": "florida.png",
+      "stateAlt": "Florida",
+      "options": ["Miami", "Orlando", "Tampa", "Jacksonville"],
+      "correctOption": "Tallahassee"
+    },
+    {
+      "stateImg": "georgia.png",
+      "stateAlt": "Georgia",
+      "options": ["Savannah", "Tybee Island", "Augusta", "Athens"],
+      "correctOption": "Atlanta"
+    },
+    {
+      "stateImg": "hawaii.png",
+      "stateAlt": "Hawaii",
+      "options": ["Volano", "Kailua-Kona", "Pearl City", "Hilo"],
+      "correctOption": "Honolulu"
+    },
+    {
+      "stateImg": "idaho.png",
+      "stateAlt": "Idaho",
+      "options": ["Nampa", "Sun Valley", "Meridian", "Pocatello"],
+      "correctOption": "Boise"
+    },
+    {
+      "stateImg": "illinois.png",
+      "stateAlt": "Illinois",
+      "options": ["Chicago", "Peoria", "Rockford", "Champaign"],
+      "correctOption": "Springfield"
+    },
+    {
+      "stateImg": "indiana.png",
+      "stateAlt": "Indiana",
+      "options": ["Fort Wayne", "Evansville", "Gary", "Bloomington"],
+      "correctOption": "Indianapolis"
+    },
+    {
+      "stateImg": "iowa.png",
+      "stateAlt": "Iowa",
+      "options": ["Iowa City", "Davenport", "Cedar Rapids", "Ames"],
+      "correctOption": "Des Moines"
+    },
+    {
+      "stateImg": "kansas.png",
+      "stateAlt": "Kansas",
+      "options": ["Wichita", "Kansas City", "Lawrence", "Manhattan"],
+      "correctOption": "Topeka"
+    },
+    {
+      "stateImg": "kentucky.png",
+      "stateAlt": "Kentucky",
+      "options": ["Louisville", "Lexington", "Bowling Green", "Paducah"],
+      "correctOption": "Frankfort"
+    },
+    {
+      "stateImg": "louisiana.png",
+      "stateAlt": "Louisiana",
+      "options": ["Shreveport", "Lafayette", "Lake Charles", "Alexandria"],
+      "correctOption": "Baton Rouge"
+    },
+    {
+      "stateImg": "maine.png",
+      "stateAlt": "Maine",
+      "options": ["Portland", "Bar Harbor", "Bangor", "Lewiston"],
+      "correctOption": "Augusta"
+    },
+    {
+      "stateImg": "maryland.png",
+      "stateAlt": "Maryland",
+      "options": ["Baltimore", "Hagerstown", "Ocean City", "Frederick"],
+      "correctOption": "Annapolis"
+    },
+    {
+      "stateImg": "massachusetts.png",
+      "stateAlt": "Massachusetts",
+      "options": ["Springfield", "Salem", "Cambridge", "Worcester"],
+      "correctOption": "Boston"
+    },
+    {
+      "stateImg": "michigan.png",
+      "stateAlt": "Michigan",
+      "options": ["Traverse City", "Detroit", "Grand Rapids", "Kalamazoo"],
+      "correctOption": "Lansing"
+    },
+    {
+      "stateImg": "minnesota.png",
+      "stateAlt": "Minnesota",
+      "options": ["Minneapolis", "Duluth", "Minnesota City", "Mankato"],
+      "correctOption": "Saint Paul"
+    },
+    {
+      "stateImg": "mississipi.png",
+      "stateAlt": "Mississipi",
+      "options": ["Tupelo", "Gulfport", "Mississipi State", "Biloxi"],
+      "correctOption": "Jackson"
+    },
+    {
+      "stateImg": "missouri.png",
+      "stateAlt": "Missouri",
+      "options": ["Kansas City", "Branson", "Springfield", "St. Louis"],
+      "correctOption": "Jefferson City"
+    },
+    {
+      "stateImg": "montana.png",
+      "stateAlt": "Montana",
+      "options": ["Bozeman", "Missoula", "West Yellowstone", "Kalispell"],
+      "correctOption": "Helena"
+    },
+
+    {
+      "stateImg": "nebraska.png",
+      "stateAlt": "Nebraska",
+      "options": ["Omaha", "Grand Island", "Nebraska City", "Kearney"],
+      "correctOption": "Lincoln"
+    },
+    {
+      "stateImg": "nevada.png",
+      "stateAlt": "Nevada",
+      "options": ["Las Vegas", "Reno", "Henderson", "Sparks"],
+      "correctOption": "Carson City"
+    },
+    {
+      "stateImg": "newhampshire.png",
+      "stateAlt": "New Hampshire",
+      "options": ["Manchester", "Portsmouth", "Nashua", "Salem"],
+      "correctOption": "Concord"
+    },
+    {
+      "stateImg": "newjersey.png",
+      "stateAlt": "New Jersey",
+      "options": ["Newark", "Princeton", "Jersey City", "Paramus"],
+      "correctOption": "Trenton"
+    },
+    {
+      "stateImg": "newmexico.png",
+      "stateAlt": "New Mexico",
+      "options": ["Albuquerque", "Las Cruces", "Silver City", "Roswell"],
+      "correctOption": "Santa Fe"
+    },
+    {
+      "stateImg": "newyork.png",
+      "stateAlt": "New York",
+      "options": ["Poughkeepsie", "Ithaca", "Yonkers", "Watertown"],
+      "correctOption": "Albany"
+    },
+    {
+      "stateImg": "northcarolina.png",
+      "stateAlt": "North Carolina",
+      "options": ["Fayetteville", "Wilmington", "Asheville", "Charlotte"],
+      "correctOption": "Raleigh"
+    },
+    {
+      "stateImg": "northdakota.png",
+      "stateAlt": "North Dakota",
+      "options": ["Fargo", "Minot", "Grand Forks", "Dickinson"],
+      "correctOption": "Bismarck"
+    },
+    {
+      "stateImg": "ohio.png",
+      "stateAlt": "Ohio",
+      "options": ["Cleveland", "Cincinnati", "Dayton", "Akron"],
+      "correctOption": "Columbus"
+    },
+    {
+      "stateImg": "oklahoma.png",
+      "stateAlt": "Oklahoma",
+      "options": ["Tulsa", "Norman", "Stillwater", "Edmond"],
+      "correctOption": "Oklahoma City"
+    },
+    {
+      "stateImg": "oregon.png",
+      "stateAlt": "Oregon",
+      "options": ["Portland", "Eugene", "Bend", "Medford"],
+      "correctOption": "Salem"
+    },
+    {
+      "stateImg": "pennsylvania.png",
+      "stateAlt": "Pennsylvania",
+      "options": ["Pittsburg", "Allentown", "Lancaster", "Erie"],
+      "correctOption": "Harrisburg"
+    },
+    {
+      "stateImg": "rhodeisland.png",
+      "stateAlt": "Rhode Island",
+      "options": ["Cranston", "Woonsocket", "Newport", "Warwick"],
+      "correctOption": "Providence"
+    },
+    {
+      "stateImg": "southcarolina.png",
+      "stateAlt": "South Carolina",
+      "options": ["Charleston", "Greenville", "Myrtle Beach", "Clemson"],
+      "correctOption": "Columbia"
+    },
+    {
+      "stateImg": "southdakota.png",
+      "stateAlt": "South Dakota",
+      "options": ["Aberdeen", "Deadwood", "Sioux Falls", "Brookings"],
+      "correctOption": "Pierre"
+    },
+    {
+      "stateImg": "tennessee.png",
+      "stateAlt": "Tennessee",
+      "options": ["Knoxville", "Memphis", "Chattanooga", "Knoxville"],
+      "correctOption": "Nashville"
+    },
+    {
+      "stateImg": "texas.png",
+      "stateAlt": "Texas",
+      "options": ["Houston", "Dallas", "San Antonio", "Texas City"],
+      "correctOption": "Austin"
+    },
+    {
+      "stateImg": "utah.png",
+      "stateAlt": "Utah",
+      "options": ["St. George", "Cedar City", "Park City", "Ogden"],
+      "correctOption": "Salt Lake City"
+    },
+    {
+      "stateImg": "vermont.png",
+      "stateAlt": "Vermont",
+      "options": ["Burlington", "Stowe", "Rutland", "Williston"],
+      "correctOption": "Montpelier"
+    },
+    {
+      "stateImg": "virginia.png",
+      "stateAlt": "Virginia",
+      "options": [
+        "Williamsburg",
+        "Norfolk",
+        "Virginia Beach",
+        "Charlottesville"
+      ],
+      "correctOption": "Richmond"
+    },
+    {
+      "stateImg": "washington.png",
+      "stateAlt": "Washington",
+      "options": ["Spokane", "Seattle", "Vancouver", "Tacoma"],
+      "correctOption": "Olympia"
+    },
+    {
+      "stateImg": "westvirginia.png",
+      "stateAlt": "West Virginia",
+      "options": ["Morgantown", "Martinsburg", "Huntington", "Wheeling"],
+      "correctOption": "Charleston"
+    },
+    {
+      "stateImg": "wisconsin.png",
+      "stateAlt": "Wisconsin",
+      "options": ["Milwaukee", "Wisconsin Dells", "Green Bay", "Kenosha"],
+      "correctOption": "Madison"
+    },
+    {
+      "stateImg": "wyoming.png",
+      "stateAlt": "Wyoming",
+      "options": ["Jackson", "Casper", "Laramie", "Sheridan"],
+      "correctOption": "Cheyenne"
+    }
+  ]
+}

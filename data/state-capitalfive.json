@@ -1,0 +1,35 @@
+{
+  "stateCapitalsFive": [
+    {
+      "stateImg": "alabama.png",
+      "stateAlt": "Alabama",
+      "options": ["Woonsocket", "Huntsville", "Auburn", "Mobile"],
+      "correctOption": "Montogomery"
+    },
+
+    {
+      "stateImg": "alaska.png",
+      "stateAlt": "Alaska",
+      "options": ["Anchorage", "Fairbanks", "Ketchikan", "Sitka"],
+      "correctOption": "Juneau"
+    },
+    {
+      "stateImg": "arizona.png",
+      "stateAlt": "Arizona",
+      "options": ["Tucson", "Scottsdale", "Sedona", "Mesa"],
+      "correctOption": "Phoenix"
+    },
+    {
+      "stateImg": "arkansas.png",
+      "stateAlt": "Arkansas",
+      "options": ["Bentonville", "Hot Springs", "Fayetteville", "Jonesboro"],
+      "correctOption": "Little Rock"
+    },
+    {
+      "stateImg": "california.png",
+      "stateAlt": "California",
+      "options": ["Fresno", "San Francisco", "Los Angeles", "San Jose"],
+      "correctOption": "Sacramento"
+    }
+  ]
+}
