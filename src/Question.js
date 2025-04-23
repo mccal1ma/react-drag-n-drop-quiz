@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import Timer from "./Timer";
 
 //const randomChoice = Math.floor(Math.random() * 5);
@@ -21,9 +21,10 @@ function Question({
   secondsRemaining,
   index,
   x,
+  capital,
 }) {
   let city = stateObject.options[x];
-  let capital = stateObject.correctOption;
+
   let initialArray = [capital, city];
   let initialState = {
     backgroundColor: "#fff",
@@ -41,9 +42,15 @@ function Question({
 
   //had to add this because the shuffledArray was being called on DragOver
   //after putting it into a useState, it did not update it when moving to a new question.
+  //I wasn't able to figure out how to dodge the eslint problem
+  // eslint-disable-next-line
   useEffect(() => {
-    setShuffledArray(shuffleArray(initialArray));
-  }, [stateObject]);
+    setShuffledArray(shuffleArray([capital, city]));
+  }, [capital]);
+
+  /* const newArray = useCallback(() => {
+    return shuffleArray(initialArray);
+  }, [stateObject]); */
 
   const handleDragOver = (event) => {
     event.preventDefault();
@@ -53,17 +60,15 @@ function Question({
     if (activeCard !== capital) {
       setShowDrop(wrongAnswer);
     }
-
     setMove("yes");
   };
 
   const handleDragEnd = (event) => {
     event.preventDefault();
     if (move === "yes") {
-      setShuffledArray(shuffleArray([city, capital]));
-
       setShowDrop(initialState);
       dispatch({ type: "newAnswer", payload: activeCard });
+
       //if you are on the LAST QUESTION
       //go to the finish screen, otherwise you go to the next question
       if (index === 49) {

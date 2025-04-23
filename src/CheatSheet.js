@@ -27,7 +27,7 @@ function CheatSheet({ stateCapitals, imgPath, dispatch }) {
         {stateCapitals.map((x, index) => (
           <div className="stateDisplay">
             <div className="numberState">{index + 1}</div>
-            <img src={imgPath + x.stateImg} />
+            <img src={imgPath + x.stateImg} alt={x.stateAlt}/>
             <p>
               <h4>
                 <strong>State capital: </strong>
