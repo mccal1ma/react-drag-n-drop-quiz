@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Timer from "./Timer";
 
 //const randomChoice = Math.floor(Math.random() * 5);
@@ -21,10 +21,9 @@ function Question({
   secondsRemaining,
   index,
   x,
-  capital,
 }) {
   let city = stateObject.options[x];
-
+  let capital = stateObject.correctOption;
   let initialArray = [capital, city];
   let initialState = {
     backgroundColor: "#fff",
@@ -39,18 +38,6 @@ function Question({
   const [showDrop, setShowDrop] = useState(initialState);
   const [move, setMove] = useState("no");
   const [shuffledArray, setShuffledArray] = useState(initialArray);
-
-  //had to add this because the shuffledArray was being called on DragOver
-  //after putting it into a useState, it did not update it when moving to a new question.
-  //I wasn't able to figure out how to dodge the eslint problem
-  // eslint-disable-next-line
-  useEffect(() => {
-    setShuffledArray(shuffleArray([capital, city]));
-  }, [capital]);
-
-  /* const newArray = useCallback(() => {
-    return shuffleArray(initialArray);
-  }, [stateObject]); */
 
   const handleDragOver = (event) => {
     event.preventDefault();
@@ -75,6 +62,11 @@ function Question({
         dispatch({ type: "finish" });
       } else {
         dispatch({ type: "nextQuestion" });
+        const newArray = shuffleArray([
+          stateObject.correctOption,
+          stateObject.options[x],
+        ]);
+        setShuffledArray(newArray);
       }
     }
   };

@@ -115,7 +115,6 @@ function App() {
               index={index}
               x={x}
               secondsRemaining={secondsRemaining}
-              capital={stateCapitals[index].correctOption}
             />
           </>
         )}
