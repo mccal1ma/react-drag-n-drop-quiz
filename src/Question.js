@@ -66,6 +66,10 @@ function Question({
         let city = stateObject.options[x];
         const newArray = shuffleArray([city, capital]);
         setShuffledArray(newArray);
+        //this is the part that is not working
+        //the shuffleArray function works but it does not pass in new values at first
+        //instead it starts with stateObject[0] with stateObject[0].correctOption
+        //then the next question is stateObject[1] with stateObject[0].correctOption
       }
     }
   };
