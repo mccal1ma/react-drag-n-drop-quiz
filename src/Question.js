@@ -62,10 +62,9 @@ function Question({
         dispatch({ type: "finish" });
       } else {
         dispatch({ type: "nextQuestion" });
-        const newArray = shuffleArray([
-          stateObject.correctOption,
-          stateObject.options[x],
-        ]);
+        let capital = stateObject.correctOption;
+        let city = stateObject.options[x];
+        const newArray = shuffleArray([city, capital]);
         setShuffledArray(newArray);
       }
     }
