@@ -89,7 +89,7 @@ function App() {
   const imgPath = "./states/";
 
   useEffect(function () {
-    fetch("http://localhost:9000/stateCapitals")
+    fetch("https://states-and-capitals.vercel.app/stateCapitals")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataRecieved", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
