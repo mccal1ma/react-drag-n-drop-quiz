@@ -114,6 +114,7 @@ function App() {
               points={points}
               index={index}
               x={x}
+              capital={stateCapitals[index].correctOption}
               secondsRemaining={secondsRemaining}
             />
           </>

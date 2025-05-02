@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Timer from "./Timer";
 
 //const randomChoice = Math.floor(Math.random() * 5);
@@ -20,10 +20,10 @@ function Question({
   dispatch,
   secondsRemaining,
   index,
+  capital,
   x,
 }) {
-  let city = stateObject.options[x];
-  let capital = stateObject.correctOption;
+  const city = stateObject.options[x];
   let initialArray = [capital, city];
   let initialState = {
     backgroundColor: "#fff",
@@ -38,6 +38,11 @@ function Question({
   const [showDrop, setShowDrop] = useState(initialState);
   const [move, setMove] = useState("no");
   const [shuffledArray, setShuffledArray] = useState(initialArray);
+
+  useEffect(() => {
+    shuffleArray(initialArray);
+    setShuffledArray(initialArray);
+  }, [stateObject]);
 
   const handleDragOver = (event) => {
     event.preventDefault();
@@ -62,14 +67,6 @@ function Question({
         dispatch({ type: "finish" });
       } else {
         dispatch({ type: "nextQuestion" });
-        let capital = stateObject.correctOption;
-        let city = stateObject.options[x];
-        const newArray = shuffleArray([city, capital]);
-        setShuffledArray(newArray);
-        //this is the part that is not working
-        //the shuffleArray function works but it does not pass in new values at first
-        //instead it starts with stateObject[0] with stateObject[0].correctOption
-        //then the next question is stateObject[1] with stateObject[0].correctOption
       }
     }
   };

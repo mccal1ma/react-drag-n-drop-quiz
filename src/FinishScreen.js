@@ -32,14 +32,13 @@ function FinishScreen({
 
   return (
     <div>
-      <p>
-        <h2>{winningMsg}</h2>
+      <h2>{winningMsg}</h2>
 
-        <h4>
-          You scored <strong>{points}</strong> out of {maxPossiblePoints} (
-          {percentage} %)
-        </h4>
-      </p>
+      <h4>
+        You scored <strong>{points}</strong> out of {maxPossiblePoints} (
+        {percentage} %)
+      </h4>
+
       <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "restart" })}
