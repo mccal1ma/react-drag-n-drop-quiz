@@ -38,11 +38,12 @@ function Question({
   const [showDrop, setShowDrop] = useState(initialState);
   const [move, setMove] = useState("no");
   const [shuffledArray, setShuffledArray] = useState(initialArray);
-
+  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     shuffleArray(initialArray);
     setShuffledArray(initialArray);
   }, [stateObject]);
+  /* eslint-disable react-hooks/exhaustive-deps */
 
   const handleDragOver = (event) => {
     event.preventDefault();
