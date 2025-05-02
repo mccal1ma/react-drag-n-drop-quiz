@@ -91,7 +91,7 @@ function Question({
         <div>
           <button
             draggable
-            className="btn btn-ui"
+            className="btn btn-ui draggable"
             onDragEnd={handleDragEnd}
             onDragStart={() => setActiveCard(shuffledArray[0])}
           >
@@ -101,7 +101,7 @@ function Question({
         <div>
           <button
             draggable
-            className="btn btn-ui"
+            className="btn btn-ui draggable"
             onDragEnd={handleDragEnd}
             onDragStart={() => setActiveCard(shuffledArray[1])}
           >
